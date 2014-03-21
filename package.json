@@ -14,25 +14,19 @@
   },
   "keywords": [
     "auth",
-    "generator",
     "sails",
-    "generate",
     "plugin",
     "passport"
   ],
   "license": "MIT",
   "dependencies": {
-    "lodash": ">=2.4.x",
-    "merge-defaults": ">=0.1.0"
+    "validator": "~3.5.0",
+    "passport": "~0.2.0",
+    "bcrypt": "~0.7.7"
   },
-  "devDependencies": {
-    "sails-generate": "*",
-    "reportback": "*",
-    "fs-extra": "*"
-  },
-  "sailsGenerator": {
+  "sailsPlugin": {
     "type": "auth",
-    "behavior": "overrides `sails generate auth`",
+    "behavior": "TODO",
     "sailsVersion": "0.10.x"
   }
 }
